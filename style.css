@@ -1,0 +1,83 @@
+  header {
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+
+  .logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-size: 18px;
+  }
+
+  header>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .content {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 60px;
+    padding: 30px 60px;
+  }
+
+  .content-header {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .input-wrapper {
+    margin-top: 80px;
+  }
+
+  .input-box {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 40px;
+  }
+
+  input::placeholder {
+    font-size: 16px;
+  }
+
+  .btn-wrapper {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 60px;
+    width: 250px;
+    border-radius: 5px
+  }
+
+  footer {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+  }
