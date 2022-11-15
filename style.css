@@ -16,6 +16,7 @@ header {
 
 .logo {
   font-size: 18px;
+  cursor: pointer;
 }
 
 .main-nav {
@@ -29,6 +30,7 @@ ul {
 
 li {
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .content {
